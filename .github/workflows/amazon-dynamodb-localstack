@@ -22,4 +22,5 @@ jobs:
       with:
         push: true
         tags: himanshumps/amazon-dynamodb-localstack:latest
+        file: Dockerfile.dynamodb
         
