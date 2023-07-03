@@ -21,6 +21,6 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: himanshumps/elasticsearch-single-node:latest
-        file: Dockerfile.elasticsearch
+        tags: himanshumps/elasticsearch-single-node-oss:latest
+        file: Dockerfile.elasticsearch-oss
         
