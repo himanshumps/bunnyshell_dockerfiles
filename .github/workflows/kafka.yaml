@@ -1,4 +1,4 @@
-name: zookeeper
+name: kafka
 
 on:
   workflow_dispatch:
