@@ -1,0 +1,2 @@
+FROM quay.io/strimzi/kafka:0.35.1-kafka-3.3.1
+CMD ["sh", "-c","bin/kafka-server-start.sh config/server.properties --override listeners=${KAFKA_LISTENERS} --override advertised.listeners=${KAFKA_ADVERTISED_LISTENERS} --override zookeeper.connect=${KAFKA_ZOOKEEPER_CONNECT}"]
